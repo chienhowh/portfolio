@@ -1,0 +1,8 @@
+.icons-box svg {
+  display: inline-block;
+}
+
+#first {
+  stroke-dasharray: 100px;
+  stroke-dashoffset: 100px;
+}
