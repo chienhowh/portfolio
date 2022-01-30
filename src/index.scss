@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  display: inline-block;
+}
+
+@layer components {
+  .btn {
+    @apply h-10 hover:scale-125
+        transition-all ease-out duration-150 cursor-pointer;
+  }
+  .flex-left {
+    @apply flex-[3_1_400px] p-4;
+  }
+  .flex-right {
+    @apply flex-[1_1_368px] p-4;
+  }
+}

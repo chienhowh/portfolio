@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Transition.module.css';
+import classes from './Transition.module.scss';
 ;
 
 function Transition() {

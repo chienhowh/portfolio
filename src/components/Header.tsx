@@ -6,19 +6,23 @@ import { ROUTER } from '../core/const/global-const';
 
 function Header() {
   return (<nav>
-    <ul className='w-3/4 flex justify-around text-2xl p-6'>
-      <li > <NavLink to={`/${ROUTER.HOME}`} className={({ isActive }) => {
+    <ul className='flex text-2xl p-6'>
+      <li className='mr-4'> <NavLink to={`/${ROUTER.HOME}`} className={({ isActive }) => {
         return isActive ? "text-main" : ""
 
       }}>首頁</NavLink></li>
-      <li> <NavLink to={`/${ROUTER.INFO}`} className={({ isActive }) => {
+      <li className='mr-4'> <NavLink to={`/${ROUTER.INFO}`} className={({ isActive }) => {
         return isActive ? "text-main" : ""
 
       }}>簡介</NavLink></li>
-      <li> <NavLink to={`/${ROUTER.CONTACTS}`} className={({ isActive }) => {
+      <li className='mr-4'> <NavLink to={`/${ROUTER.CONTACTS}`} className={({ isActive }) => {
         return isActive ? "text-main" : ""
 
       }}>聯絡方式</NavLink></li>
+      <li className='mr-4'> <NavLink to={`/${ROUTER.MOVIE_LIST}`} className={({ isActive }) => {
+        return isActive ? "text-main" : ""
+
+      }}>電影清單</NavLink></li>
     </ul>
 
 

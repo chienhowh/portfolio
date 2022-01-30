@@ -1,5 +1,6 @@
 export const ROUTER = {
     HOME: 'home',
     CONTACTS: 'contacts',
-    INFO: 'info'
+    INFO: 'info',
+    MOVIE_LIST: 'movielist'
 }
