@@ -12,9 +12,9 @@ img {
         transition-all ease-out duration-150 cursor-pointer;
   }
   .flex-left {
-    @apply flex-[3_1_400px] p-4;
+    @apply flex-[3_1_400px] p-6 pt-0;
   }
   .flex-right {
-    @apply flex-[1_1_368px] p-4;
+    @apply flex-[1_1_368px] p-6 pt-0;
   }
 }

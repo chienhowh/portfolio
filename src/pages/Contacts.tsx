@@ -16,7 +16,7 @@ function Contacts() {
     console.log(requestBody);
   }
 
-  return <main className='flex flex-wrap'>
+  return <main className='flex flex-wrap max-w-screen-xl mx-auto pt-6'>
     <section className='flex-left'>
       <form className="w-full max-w-sm" onSubmit={submitHandler}>
         <div className="md:flex md:items-center mb-6">
